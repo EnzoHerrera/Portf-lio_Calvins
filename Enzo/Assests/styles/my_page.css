@@ -1,0 +1,248 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #3498db);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: #333;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-img {
+    height: 450px;
+    background-image: url('../Imagens/default/codigo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.section-img button {
+    padding: 30px 20px;
+    font-size: 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transform: scale(1.25);
+}
+
+.section-img button:hover {
+    background-color: #2c3e50;
+    transform: scale(1.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #3498db, transparent);
+    margin: 48px 120px;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 32px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.listas section {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.listas section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3498db;
+}
+
+ol,
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 12.8px;
+    position: relative;
+}
+
+.curiosidades li::marker {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.visitados li::marker {
+    color:  #e74c3c;
+    font-weight: bold;
+}
+
+.desejos-visitar li::before {
+    position: absolute;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px 5%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.box-img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.box-img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.box-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.box-img:hover img {
+    transform: scale(1.05);
+}
+
+.divisao-maior {
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    transform: scale(0.9);
+    border-radius: 5px;
+}
+
+main {
+    width: 70%;
+    background-color: #333;
+    margin: 20px;
+    border-radius: 15px;
+    height: 1100px;
+    border: 1.5px solid white;
+}
+
+#portifolio {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+#portifolio img,
+#curiosidades img {
+    width: 174px;
+    height: 200px;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgs img {
+    margin-bottom: 20px;
+    height: 350px;
+    width: 600px;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.container h2,
+.container ul {
+    color: white;
+}
+
+.container,
+.imgs {
+    text-align: center;
+    padding: 20px;
+}
+
+#curiosidades {
+    display: flex;
+    justify-content: space-around;
+}
