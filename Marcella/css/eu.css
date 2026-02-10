@@ -1,0 +1,188 @@
+body{ 
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  background: linear-gradient(to right, rgb(1, 0, 20),rgb(0, 0, 42)); 
+  font-family: sans-serif; 
+} 
+
+.branco{ 
+  color: white; 
+  font-size: 1cm; 
+} 
+
+.vermelho{ 
+  color: rgb(207, 0, 0); 
+  font-size: 1cm; 
+} 
+
+.cancel{ 
+  margin-left: 39.5cm; 
+  margin-top: -95px; 
+  transition: font-size 0.3s; 
+} 
+
+.cancel :hover{ 
+  font-size: 30px; 
+} 
+
+header{ 
+  border-bottom: solid 1px; 
+  border-color: white; 
+  margin-top: -25px; 
+  padding: 18px; 
+  background-color: rgba(5, 0, 23, 0.3); 
+} 
+
+#h1-eu{ 
+  color: white; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+} 
+
+#p-eu{ 
+  color: white; 
+  width: 530px; 
+  font-size: small; 
+  margin-left: 10px; 
+} 
+
+.art-quem{ 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+  width: 750px; 
+  margin-left: 420px; 
+} 
+
+.sec-eu{ 
+  flex: 1; 
+  background: rgba(49, 28, 99, 0.3); 
+  padding: 30px ; 
+  width: 31.8cm; 
+  margin-top: 120px; 
+  margin-left: 130px; 
+  border-radius: 20px; 
+  box-shadow: 0 6px 25px rgba(14, 1, 62, 0.771); 
+  background-color: rgba(49, 0, 155, 0.141); 
+  min-height: 500px; 
+} 
+
+.art-eu{ 
+  display: flex; 
+  flex-direction: column;
+  padding: 40px; 
+  margin-top: -125px; 
+  margin-left: 60px; 
+  background: rgba(5, 0, 43, 0.711); 
+  box-shadow: 0 0 25px rgba(7, 0, 75, 0.5); 
+  border-radius: 20px; width: 235px; 
+}
+
+.art-eu img{ 
+  margin-left: 20px; 
+  width: 200px; 
+  height: 200px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  box-shadow: 0 0 25px rgba(20, 2, 223, 0.5); 
+  margin-bottom: 25px; 
+}
+
+.curiosidades{ 
+  background: rgba(28, 60, 135, 0.25); 
+  padding: 22px; border-radius: 15px; 
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.35); 
+  width: 230px; 
+  height: px;
+  color: white; 
+  text-align: left; 
+  margin-left: -20px; 
+} 
+
+.lug-conheci{
+  margin-left: 430px;
+  margin-top: -10cm;
+  color: white;
+}
+
+.lugares-conheci{
+  margin-left: 400px;
+  color: white;
+}
+
+#forta{
+  width: 175px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+
+#floripa{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#floripa2{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#porto{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+.imagens{ 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+}
+
+
+.lug-quero{
+  margin-left: 400px;
+  color: white;
+}
+
+.lugares-quero{
+  margin-left: 400px;
+  color: white;
+}
+
+#alemanha{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#espanha{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#italia{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#maranhao{
+  width: 175px;
+  border-radius: 20px;
+  height: 130px;
+  margin-left: 20px;
+}
+
+#jade{
+  margin-top: -260px;
+  width: 250px;
+  height: 180px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
